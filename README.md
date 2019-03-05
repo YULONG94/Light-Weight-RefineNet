@@ -8,9 +8,9 @@ pytorch win10
 
 下载解压可以得到如下文件（夹）
 
-JPEGImages：文件夹，包含17125张jpg图片，其中12031张用于这个任务
+JPEGImages：文件夹，包含17125张图片，其中12031张用于这个语义分割的任务
 
-SegmentationClassAug：文件夹，包含12031张标签png图片
+SegmentationClassAug：文件夹，包含12031张标签图片（需要是灰度图格式）
 
 test.txt
 
