@@ -5,19 +5,30 @@ pytorch win10
 
 ## 训练数据集下载
 我使用的是增强版的VOC2012，用于做语义识别，图像分割的共有12031张原图和标签，可在百度网盘的链接下载：
+
 下载解压可以得到如下文件（夹）
-> JPEGImages
-> SegmentationClassAug
-> test.txt
-> train.txt
-> train_aug.txt
-> trainval.txt
-> trainval_aug.txt
-> val.txt
+
+JPEGImages：文件夹，包含17125张jpg图片，其中12031张用于这个任务
+
+SegmentationClassAug：文件夹，包含12031张标签png图片
+
+test.txt
+
+train.txt
+
+train_aug.txt
+
+trainval.txt
+
+trainval_aug.txt
+
+val.txt
 
 ## 训练
 configs.py和utils中的get_arguments函数支持多种参数的设置，除了需要更改关于训练数据的文件位置，其他都接受默认的配置即可运行
+
 >TRAIN_DIR改成存放VOC2012AUG（上方的数据集下载可以获得）文件夹的路径即可
+
 >同理，对于TRAIN_LIST和VAL_LIST
 
 > 我的邮箱联系方式1286307712@qq.com，欢迎联系，如果觉得还不错的话，可以右上角点点星星，谢谢 (^.^)
