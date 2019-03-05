@@ -31,5 +31,10 @@ configs.py和utils中的get_arguments函数支持多种参数的设置，除了�
 
 >同理，对于TRAIN_LIST和VAL_LIST
 
+>然后就可以直接运行train.py的文件，当然也可以根据get_arguments中的设置在命令行中加上相关的参数
+
+## 测试
+test.py是用于测试的，运行方式和train.py相同，不过需要确保models文件夹下有训练好的模型文件
+
 ## 联系
 我的邮箱联系方式1286307712@qq.com，欢迎联系，如果觉得还不错的话，可以右上角点点星星，谢谢 (^.^)
